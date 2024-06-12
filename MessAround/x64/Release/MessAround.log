@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (MessAround.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Debugger.cpp
+Debugger.cpp(108): error C2065: 'PsProcessType': undeclared identifier
+Debugger.cpp(115): error C2065: 'DbgkDebugObjectType': undeclared identifier
+Debugger.cpp(120): error C3861: 'ExfAcquireRundownProtection': identifier not found
+Debugger.cpp(124): error C2065: 'pObject': undeclared identifier
+Debugger.cpp(124): error C3861: 'DbgkpPostFakeProcessCreateMessages': identifier not found
+Debugger.cpp(125): error C2065: 'pObject': undeclared identifier
+Debugger.cpp(125): error C3861: 'DbgkpSetProcessDebugObject': identifier not found
+Debugger.cpp(127): error C3861: 'ExfReleaseRundownProtection': identifier not found
+Debugger.cpp(130): error C2065: 'pObject': undeclared identifier
+Debugger.cpp(145): error C2084: function 'NTSTATUS NtDebugActiveProcess(HANDLE,HANDLE)' already has a body
+  Debugger.cpp(99): note: see previous definition of 'NtDebugActiveProcess'
+Debugger.cpp(153): error C2065: 'PsProcessType': undeclared identifier
+Debugger.cpp(158): error C3861: 'PsGetCurrentProcess': identifier not found
+Debugger.cpp(160): error C2065: 'PsInitialSystemProcess': undeclared identifier
+Debugger.cpp(173): error C2065: 'DbgkDebugObjectType': undeclared identifier
+Debugger.cpp(187): error C3861: 'ExfAcquireRundownProtection': identifier not found
+Debugger.cpp(199): error C3861: 'DbgkpPostFakeProcessCreateMessages': identifier not found
+Debugger.cpp(200): error C3861: 'DbgkpSetProcessDebugObject': identifier not found
+Debugger.cpp(212): error C3861: 'ExfReleaseRundownProtection': identifier not found
